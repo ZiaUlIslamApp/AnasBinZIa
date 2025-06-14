@@ -2,38 +2,89 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Zia Ul Islam App</title>
+  <link rel="icon" type="image/png" href="https://play-lh.googleusercontent.com/og1P6bnY5QpoLuJcYO7x3f4KPm3BbRx3u4Z1Zo4VuF_zlWlB04aYXEcS9LfylYqZMGc=w240-h480-rw" />
+  <meta name="description" content="Zia Ul Islam App by Anas Bin Zia — Learn Quran, Hadith, Islamic knowledge and more." />
   <style>
     body {
-      background-color: #f8f9fa;
-      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://images.unsplash.com/photo-1509223197845-458d87318791?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
       text-align: center;
-      padding: 40px;
     }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.65);
+      min-height: 100vh;
+      padding: 60px 20px;
+    }
+
+    .logo {
+      width: 140px;
+      height: 140px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(255,255,255,0.2);
+      margin-bottom: 20px;
+    }
+
     h1 {
-      color: #2c3e50;
+      font-size: 2.2rem;
+      margin-bottom: 10px;
     }
-    .btn {
-      padding: 12px 24px;
-      background-color: #27ae60;
+
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #25d366;
       color: white;
-      border: none;
-      border-radius: 5px;
-      font-size: 16px;
+      padding: 14px 30px;
+      font-size: 18px;
+      border-radius: 8px;
       text-decoration: none;
+      transition: background-color 0.3s ease;
     }
-    img {
-      max-width: 300px;
-      margin-top: 20px;
+
+    .button:hover {
+      background-color: #1dbf57;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+      p {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Zia Ul Islam</h1>
-  <p>Quran o Sunnat par mabni Islami App</p>
-  <img src="finalicon.jpg" alt="App Screenshot" />
-  <br /><br />
-  <a class="btn" href="https://play.google.com/store/apps/details?id=com.anasbinzia.ziaulislampro" target="_blank">Download on Play Store</a>
+  <div class="overlay">
+    <img class="logo" src="https://play-lh.googleusercontent.com/og1P6bnY5QpoLuJcYO7x3f4KPm3BbRx3u4Z1Zo4VuF_zlWlB04aYXEcS9LfylYqZMGc=w240-h480-rw" alt="App Logo" />
+    <h1>Zia Ul Islam App</h1>
+    <p>Learn Quran, Hadith, Islamic knowledge and more — all in one app. Built with care by Anas Bin Zia.</p>
+    <a class="button" href="https://play.google.com/store/apps/details?id=com.anasbinzia.ziaulislampro&hl=en" target="_blank">
+      📲 Download from Play Store
+    </a>
+    <footer>
+      <br><br>
+      © 2025 Zia Ul Islam by Anas Bin Zia
+    </footer>
+  </div>
 </body>
 </html>
